@@ -32,7 +32,6 @@ class FileController {
 
         //criar um arquivo
         console.log(req.file);
-        return res.send('ok');
     }
 }
 //retornar uma instancia da classe
